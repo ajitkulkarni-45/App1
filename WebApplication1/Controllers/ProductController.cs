@@ -13,6 +13,7 @@ namespace WebApplication1.Controllers
             return Ok(new ProductDto
             {
                 Id = id,
+                ProductName = "Keyboard",
                 Price = 1999
             });
         }
